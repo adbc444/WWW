@@ -1,0 +1,182 @@
+@media screen and (min-width: 1366px){
+
+.desktop-none{
+	display: none;
+}
+.wrapper{
+	width: 1366px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.none{
+	display: inline-block;
+}
+.mobile_none {
+	display: none;
+}
+.nav_button{
+	background: inherit;
+	text-transform: uppercase;
+	color: #00856F;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 10px 24px;
+	border: 1px solid #00856F;
+	cursor: pointer;
+	border-radius: 40px;
+}
+.nav_button:active{
+	background: #00856F;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+nav{
+	padding: 15px 123px 0 123px;
+	display: flex;
+	align-items: center;
+}
+nav img{
+	width: 133px;
+	height: auto;
+}
+.links{
+	display: block;
+	
+
+}
+.links a{
+	font-size: 16px;
+	font-weight: 400;
+	color: #00856F;
+	padding-bottom: 28px;
+	margin-right: 32px;
+	
+}
+.links a:hover{
+	border-bottom: 2px solid #00856F;
+	padding-bottom: 26px;
+	font-weight: 700;
+	margin-right: 29px;
+}
+
+.bottom_content{
+	display: flex;
+/*	padding: 2px 123px 0 123px;*/
+	height: 678px;
+	align-items: center;
+	column-gap: 51px;
+
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 605px;
+
+}
+.content p{
+	text-align: left;
+}
+.content h3{
+	text-align: left;
+}
+.content h1{
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 130%;
+	text-align: left;
+}
+.bottom_img{
+	min-width: 420px;
+	height: auto;;
+}
+.content button{
+	margin-left: 0;
+}
+.stat_box{
+	display: flex;
+	flex-direction: row;
+	padding: 60px 120px;
+	column-gap: 100px;
+	justify-content: space-between;
+	position: relative;
+}
+.header_bottom{
+	padding: 0 123px;
+	height: 678px;
+	display: flex;
+	flex-direction: column;
+}
+.servicos{
+	padding: 263px 0 160px 0;
+
+}
+.servicos_bottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 82px 0 163px;
+	column-gap: 40px;
+	row-gap: 40px;
+
+
+}
+.servicos_box{
+	width: 30%;
+}
+.sobre_nos2{
+	padding: 160px 123px;
+	display: flex;
+	flex-direction: row-reverse;
+	column-gap: 67px;
+}
+
+.sobre_nos_right{
+	width: 573px;
+	height: auto;
+}
+.sobre_nos2 img{
+	width: 480px;
+	height: 414px;
+}
+.sobre_nos_right h2, .contacto h2{
+	font-size: 40px;
+}
+.contacto{
+	padding: 123px 160px;
+}
+.contacto2{
+	display: flex;
+	column-gap: 141px;
+	align-items: ;
+	padding: 0 123px;
+
+}
+}
+.photo{
+	width: 575px;
+	height: auto;
+	border-radius: 20px;
+}
+.content_left{
+	display: flex;
+	flex-direction: column;
+/*	row-gap: 40px;*/
+}
+.content_left button{
+	width: 268px;
+}
+
+footer{
+	padding: 80px 122px 80px 123px;
+}
+footer .wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.left_paragraf p{
+	font-size: 14px;
+}
+
+}
